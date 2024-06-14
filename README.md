@@ -28,3 +28,7 @@ You can specify a different address using the `--to` flag.
 ./lumio-cli deposit-sol 100 --to F7J6FsZivaRRyGpLWhTo3yc75R7Lid8xWH6we4LSqh4r
 ```
 
+You can also specify keypair file using the `--keypair` flag.
+```bash
+./lumio-cli deposit-sol 100 --keypair /path/to/keypair.json
+```
